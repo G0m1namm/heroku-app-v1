@@ -8,16 +8,16 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall":"ng build --aot -prod",
-    "start":"node server.js"
+    "postinstall": "ng build --aot -prod",
+    "start": "node server.js"
   },
   "private": true,
   "dependencies": {
-    "@angular/cli": "1.6.7",
-    "@angular/compiler-cli": "^5.2.0",
     "@angular/animations": "^5.2.0",
+    "@angular/cli": "1.6.7",
     "@angular/common": "^5.2.0",
     "@angular/compiler": "^5.2.0",
+    "@angular/compiler-cli": "^5.2.0",
     "@angular/core": "^5.2.0",
     "@angular/forms": "^5.2.0",
     "@angular/http": "^5.2.0",
@@ -46,8 +46,9 @@
     "ts-node": "~4.1.0",
     "tslint": "~5.9.1",
     "typescript": "~2.5.3"
-  }, "engines":{
-    "node":"8.9.4",
-    "yarn":"1.5.1"
+  },
+  "engines": {
+    "node": "8.9.4",
+    "yarn": "1.5.1"
   }
 }
